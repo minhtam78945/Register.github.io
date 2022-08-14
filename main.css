@@ -96,11 +96,14 @@ button:hover {
     .from_login {
         padding: 10px;
     }
-
     .from_login input {
+        border: none;
+        outline: none;
         margin-left: 10px;
+        width: 100%;
+        height: 40px;
+        border-bottom: 2px solid black;
     }
-
     .btn {
         margin-top: 10px;
         font-weight: 700;
