@@ -34,16 +34,16 @@ body {
 .container h1::before {
     content: "";
     position: absolute;
-    width: 85px;
+    width: 100px;
     height: 3px;
     left: 40%;
-    top: 16%;
+    top: 20%;
     background-color: #4070f4;
 }
 
 .from_login {
     position: relative;
-    padding: 20px;
+    padding: 9px;
     width: 100%;
 }
 
@@ -88,16 +88,8 @@ button:hover {
         padding: 20px;
 
     }
-
-    .container h1::before {
-        width: 0px;
-        height: 0px;
-        left: 0%;
-        top: 0;
-    }
-
     .from_login {
-        padding: 10px;
+        padding: 5px;
     }
     .from_login input {
         border: none;
@@ -110,6 +102,6 @@ button:hover {
     .btn {
         margin-top: 10px;
         font-weight: 700;
-        height: 30px;
+        padding: 20px;
     }
 }
