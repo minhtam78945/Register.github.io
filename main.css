@@ -4,9 +4,11 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 body {
     height: 100vh;
     display: flex;
@@ -88,9 +90,11 @@ button:hover {
         padding: 20px;
 
     }
+
     .from_login {
         padding: 5px;
     }
+
     .from_login input {
         border: none;
         outline: none;
@@ -99,6 +103,7 @@ button:hover {
         border-bottom: 2px solid black;
         border-top: none;
     }
+
     .btn {
         margin-top: 10px;
         font-weight: 700;
